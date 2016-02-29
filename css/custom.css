@@ -1,1 +1,12 @@
 #github-tooltip { margin-left: -20px !important; }
+
+
+#profile-image {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+#profile-name {
+	margin-left: 20px;
+}
