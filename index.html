@@ -2,346 +2,433 @@
 <html>
   <head>
     <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta http-equiv='X-UA-Compatible' content='chrome=1'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_blue-orange.min.css" />
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href='css/custom.css' />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.2/css/bulma.min.css' />
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='css/custom.css'>
 
     <title>Braymon Ramirez</title>
   </head>
 
   <body>
-    <div class='mdl-layout mdl-js-layout mdl-color--grey-300'>
-      <div class='mdl-layout__content'>
+    <div class='section'>
+      <div class='container'>
+        <div class='columns'>
+          <div class='column is-one-third'>
+            <div class='box'>
 
-        <div class='mdl-grid'>
-          <div class='mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet'></div>
-          <div class='mdl-cell mdl-cell--8-col-desktop mdl-cell--12-col-phone mdl-cell--12-col-tablet'>
-            <div class='mdl-grid mdl-grid--no-spacing'>
-              <div class='mdl-card mdl-shadow--8dp mdl-cell mdl-cell--12-col'>
-                <div class='mdl-card__title mdl-color--primary'>
-                  <div>
-                    <img src='images/bray.jpg' id='profile-image'>
-                  </div>
-                  <div class='mdl-card__title-text'>
-                    <h2 class='mdl-color-text--white' id='profile-name'>Braymon Ramirez</h2>
-                  </div>
+              <div class='has-text-centered'>
+                <div class='image is-128x128 is-image-centered'>
+                  <img src='images/bray.jpg' alt='bray' class='is-round'>
                 </div>
-                <div class='mdl-card__supporting-text'>
-                  <h5>
-                    <i class='fa fa-map-marker mdl-color-text--accent'></i>
-                    &nbsp;
-                    Auckland, New Zealand
-                  </h5>
+                <br/>
+                <h1 class='title is-spaced'>Braymon Ramirez</h1>
+                <p class='subtitle is-6'>
+                  Full Stack Developer, Programmer,
+                  Ruby
+                </p>
+              </div>
 
-                  <h6>
-                    <i class='fa fa-circle mdl-color-text--accent'></i>&nbsp;Programmer
-                    <i class='fa fa-circle mdl-color-text--accent'></i>&nbsp;Full Stack Web Developer
-                    <i class='fa fa-circle mdl-color-text--accent'></i>&nbsp;Tabletop Games
-                  </h6>
+              <br/>
+
+              <p>
+                <span class='icon'>
+                  <i class='fa fa-home'></i>
+                </span>
+                Auckland, New Zealand
+              </p>
+
+              <p>
+                <span class='icon'>
+                  <i class='fa fa-envelope'></i>
+                </span>
+                 <a href='mailto:braymon.ramirez@gmail.com'>braymon.ramirez@gmail.com</a>
+              </p>
+
+              <p>
+                <span class='icon'>
+                  <i class='fa fa-github'></i>
+                </span>
+                <a href='https://github.com/brayramirez'>brayramirez</a>
+              </p>
+
+              <p>
+                <span class='icon'>
+                  <i class='fa fa-linkedin-square'></i>
+                </span>
+                <a href='https://nz.linkedin.com/in/braymonramirez'>braymonramirez</a>
+              </p>
+            </div>
+          </div>
+
+          <div class='column'>
+            <div class='box' id='skills'>
+              <h3 class='title is-3'>
+                <a href='#skills'>
+                  Skills
+                </a>
+              </h3>
+              <hr/>
+              <div class='columns'>
+                <div class='column'>
+                  <p>
+                    <span class='icon has-text-success'>
+                      <i class='fa fa-check-square-o'></i>
+                    </span>
+                    Ruby
+                  </p>
+
+                  <p>
+                    <span class='icon has-text-success'>
+                      <i class='fa fa-check-square-o'></i>
+                    </span>
+                    Rails
+                  </p>
+
+                  <p>
+                    <span class='icon has-text-success'>
+                      <i class='fa fa-check-square-o'></i>
+                    </span>
+                    PostgreSQL
+                  </p>
+
+                  <p>
+                    <span class='icon has-text-success'>
+                      <i class='fa fa-check-square-o'></i>
+                    </span>
+                    MySQL
+                  </p>
                 </div>
-                <div class='mdl-card__actions mdl-card--border'>
-                  <a href='https://github.com/brayramirez' class='mdl-button mdl-js-button mdl-button--icon mdl-color-text--accent' id='github' target='_blank'>
-                    <i class='material-icons fa fa-github-square'></i>
-                  </a>
-                  <span class='mdl-tooltip' id='github-tooltip' for='github'>brayramirez</span>
 
-                  <a href='https://nz.linkedin.com/in/braymonramirez' class='mdl-button mdl-js-button mdl-button--icon mdl-color-text--accent' id='linkedin' target='_blank'>
-                    <i class='material-icons fa fa-linkedin-square'></i>
-                    &nbsp;
-                  </a>
-                  <span class='mdl-tooltip' for='linkedin'>Braymon Ramirez</span>
+                <div class='column'>
+                  <p>
+                    <span class='icon has-text-success'>
+                      <i class='fa fa-check-square-o'></i>
+                    </span>
+                    Amazon Redshift
+                  </p>
 
-                  <a href='https://twitter.com/brayramz' class='mdl-button mdl-js-button mdl-button--icon mdl-color-text--accent' id='twitter' target='_blank'>
-                    <i class='material-icons fa fa-twitter-square'></i>
-                  </a>
-                  <span class='mdl-tooltip' for='twitter'>@brayramz</span>
+                  <p>
+                    <span class='icon has-text-success'>
+                      <i class='fa fa-check-square-o'></i>
+                    </span>
+                    JavaScript
+                  </p>
 
-                  <a href='mailto:braymon.ramirez@gmail.com' class='mdl-button mdl-js-button mdl-button--icon mdl-color-text--accent' id='email' target='_blank'>
-                    <i class='material-icons fa fa-envelope-square'></i>
-                  </a>
-                  <span class='mdl-tooltip' for='email'>braymon.ramirez@gmail.com</span>
+                  <p>
+                    <span class='icon has-text-success'>
+                      <i class='fa fa-check-square-o'></i>
+                    </span>
+                    JQuery
+                  </p>
+
+                  <p>
+                    <span class='icon has-text-success'>
+                      <i class='fa fa-check-square-o'></i>
+                    </span>
+                    EmberJS
+                  </p>
+                </div>
+
+                <div class='column'>
+                  <p>
+                    <span class='icon has-text-success'>
+                      <i class='fa fa-check-square-o'></i>
+                    </span>
+                    ReactJS
+                  </p>
+
+                  <p>
+                    <span class='icon has-text-success'>
+                      <i class='fa fa-check-square-o'></i>
+                    </span>
+                    Git
+                  </p>
+
+                  <p>
+                    <span class='icon has-text-success'>
+                      <i class='fa fa-check-square-o'></i>
+                    </span>
+                    Agile
+                  </p>
+
+                  <p>
+                    <span class='icon has-text-success'>
+                      <i class='fa fa-check-square-o'></i>
+                    </span>
+                    Linux/Ubuntu
+                  </p>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div class='mdl-grid'>
-          <div class='mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet'></div>
-          <div class='mdl-cell mdl-cell--8-col-desktop mdl-cell--12-col-phone mdl-cell--12-col-tablet'>
-            <div class='mdl-grid mdl-grid--no-spacing'>
-              <div class='mdl-card mdl-shadow--8dp mdl-cell mdl-cell--12-col'>
-                <div class='mdl-card__title mdl-color--primary'>
-                  <div class='mdl-card__title-text'>
-                    <h3 class='mdl-color-text--white'>
-                      <i class='fa fa-wrench'></i>&nbsp;Skills
-                    </h3>
-                  </div>
-                </div>
+            <div class='box' id='experience'>
+              <h3 class='title is-3'>
+                <a href='#experience'>
+                  Experience
+                </a>
+              </h3>
+              <hr/>
+              <div class='content'>
+                <h3>OraHQ</h3>
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-laptop"></i>
+                  </span>
+                  Ruby on Rails Developer
+                </p>
 
-                <div class='mdl-card__supporting-text'>
-                  <div class='mdl-grid'>
-                    <div class='mdl-cell mdl-cell--6-col'>
-                      <h5>
-                        <i class='mdl-color-text--accent fa fa-check-square-o'></i>&nbsp;Ruby
-                      </h5>
-                      <h5>
-                        <i class='mdl-color-text--accent fa fa-check-square-o'></i>&nbsp;Rails
-                      </h5>
-                      <h5>
-                        <i class='mdl-color-text--accent fa fa-check-square-o'></i>&nbsp;PostgreSQL
-                      </h5>
-                      <h5>
-                        <i class='mdl-color-text--accent fa fa-check-square-o'></i>&nbsp;Amazon Redshift
-                      </h5>
-                      <h5>
-                        <i class='mdl-color-text--accent fa fa-check-square-o'></i>&nbsp;MySQL
-                      </h5>
-                      <h5>
-                        <i class='mdl-color-text--accent fa fa-check-square-o'></i>&nbsp;Javascript
-                      </h5>
-                      <h5>
-                        <i class='mdl-color-text--accent fa fa-check-square-o'></i>&nbsp;JQuery
-                      </h5>
-                      <h5>
-                        <i class='mdl-color-text--accent fa fa-check-square-o'></i>&nbsp;ReactJS
-                      </h5>
-                    </div>
-                    <div class='mdl-cell mdl-cell--6-col'>
-                      <h5>
-                        <i class='mdl-color-text--accent fa fa-check-square-o'></i>&nbsp;EmberJS
-                      </h5>
-                      <h5>
-                        <i class='mdl-color-text--accent fa fa-check-square-o'></i>&nbsp;Git
-                      </h5>
-                      <h5>
-                        <i class='mdl-color-text--accent fa fa-check-square-o'></i>&nbsp;Jira
-                      </h5>
-                      <h5>
-                        <i class='mdl-color-text--accent fa fa-check-square-o'></i>&nbsp;Pivotal Tracker
-                      </h5>
-                      <h5>
-                        <i class='mdl-color-text--accent fa fa-check-square-o'></i>&nbsp;CSS
-                      </h5>
-                      <h5>
-                        <i class='mdl-color-text--accent fa fa-check-square-o'></i>&nbsp;HTML
-                      </h5>
-                      <h5>
-                        <i class='mdl-color-text--accent fa fa-check-square-o'></i>&nbsp;Linux/Ubuntu
-                      </h5>
-                      <h5>
-                        <i class='mdl-color-text--accent fa fa-check-square-o'></i>&nbsp;OSX
-                      </h5>
-                    </div>
-                  </div>
-                </div>
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-map-marker"></i>
+                  </span>
+                  Auckland, New Zealand
+                </p>
+
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-wrench"></i>
+                  </span>
+                  Ruby on Rails - EmberJS - PostgreSQL - Amazon Redshift - GitHub - Jira - OSX - Ubuntu
+                </p>
+
+                <hr/>
+
+                <h3>Clinic-IT Network Support and Business Solutions, Inc.</h3>
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-laptop"></i>
+                  </span>
+                  Senior Web Developer
+                </p>
+
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-map-marker"></i>
+                  </span>
+                  Makati, Philippines
+                </p>
+
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-wrench"></i>
+                  </span>
+                  Ruby on Rails - PostgreSQL - MySQL - JavaScript - JQuery - ReactJS - ExpressJS - GitHub - Multi-tenancy - Pivotal Tracker - Jira - RSpec - Spree - OSX - Ubuntu
+                </p>
+
+                <hr/>
+
+                <h3>Jupiter Systems, Inc.</h3>
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-laptop"></i>
+                  </span>
+                  Programmer II
+                </p>
+
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-map-marker"></i>
+                  </span>
+                  Makati, Philippines
+                </p>
+
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-wrench"></i>
+                  </span>
+                  PowerBuilder - MS SQL - Microsoft Analysis Service 2000 - Microsoft Business Intelligence SQL Server Analysis Service 2005
+                </p>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div class='mdl-grid'>
-          <div class='mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet'></div>
-          <div class='mdl-cell mdl-cell--8-col-desktop mdl-cell--12-col-phone mdl-cell--12-col-tablet'>
-            <div class='mdl-grid mdl-grid--no-spacing'>
-              <div class='mdl-card mdl-shadow--8dp mdl-cell mdl-cell--12-col'>
-                <div class='mdl-card__title mdl-color--primary'>
-                  <div class='mdl-card__title-text'>
-                    <h3 class='mdl-color-text--white'>
-                      <i class='fa fa-info-circle'></i>&nbsp;Experience
-                    </h3>
-                  </div>
-                </div>
-                <div class='mdl-card__supporting-text'>
-                  <h4 class='mdl-color-text--primary'>
-                    OraHQ
-                  </h4>
-                  <p>
-                    <i class='material-icons fa fa-black-tie'></i>
-                    &nbsp;Ruby on Rails Developer
-                  </p>
-                  <p>
-                    <i class='material-icons fa fa-map-marker'></i>
-                    &nbsp;Auckland, New Zealand
-                  </p>
-                  <p>
-                    <i class='material-icons fa fa-wrench'></i>
-                    &nbsp;Ruby on Rails - EmberJS - PostgreSQL - Amazon Redshift - GitHub - Jira - OSX - Ubuntu
-                  </p>
+            <div class='box' id='personal-projects'>
+              <h3 class='title is-3'>
+                <a href='#personal-projects'>
+                  Personal Projects
+                </a>
+              </h3>
+              <hr/>
+              <div class='content'>
+                <h3>Rails + VueJS</h3>
 
-                  <hr/>
-                  <h4 class='mdl-color-text--primary'>
-                    Clinic-IT Network Support and Business Solutions, Inc.
-                  </h4>
-                  <p>
-                    <i class='material-icons fa fa-black-tie'></i>
-                    &nbsp;Senior Web Developer
-                  </p>
-                  <p>
-                    <i class='material-icons fa fa-map-marker'></i>
-                    &nbsp;Makati, Philippines
-                  </p>
-                  <p>
-                    <i class='material-icons fa fa-wrench'></i>
-                    &nbsp;Ruby on Rails - PostgreSQL - MySQL - JavaScript - JQuery - ReactJS - ExpressJS - GitHub - Multi-tenancy - Pivotal Tracker - Jira - RSpec - Spree - OSX - Ubuntu
-                  </p>
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-wrench"></i>
+                  </span>
+                  Ruby on Rails 5.1.1, Webpacker, VueJS, Heroku, Material Design
+                </p>
 
-                  <hr/>
-                  <h4 class='mdl-color-text--primary'>
-                    Jupiter Systems, Inc.
-                  </h4>
-                  <p>
-                    <i class='fa fa-black-tie'></i>
-                    &nbsp;Programmer II
-                  </p>
-                  <p>
-                    <i class='material-icons fa fa-map-marker'></i>
-                    &nbsp;Makati, Philippines
-                  </p>
-                  <p>
-                    <i class='material-icons fa fa-wrench'></i>
-                    &nbsp;PowerBuilder - MS SQL - Microsoft Analysis Service 2000 - Microsoft Business Intelligence SQL Server Analysis Service 2005
-                  </p>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class='mdl-grid'>
-          <div class='mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet'></div>
-          <div class='mdl-cell mdl-cell--8-col-desktop mdl-cell--12-col-phone mdl-cell--12-col-tablet'>
-            <div class='mdl-grid mdl-grid--no-spacing'>
-              <div class='mdl-card mdl-shadow--8dp mdl-cell mdl-cell--12-col'>
-                <div class='mdl-card__title mdl-color--primary'>
-                  <div class='mdl-card__title-text'>
-                    <h3 class='mdl-color-text--white'>
-                      <i class='fa fa-laptop'></i>&nbsp;Personal Projects
-                    </h3>
-                  </div>
-                </div>
-
-                <div class='mdl-card__supporting-text'>
-                  <h4 class='mdl-color-text--primary'>Version Tracker</h4>
-                  <p>
-                    <i class='material-icons fa fa-wrench'></i>
-                    &nbsp;Ruby, Git, RSpec
-                  </p>
-                  <h6>
-                    During my time at Clinic IT, the team had some troubles with keeping track of version releases. I took this problem as an opportunity to start building a gem to cater to our needs.
-                  </h6>
-                  <a href='https://github.com/brayramirez/version_tracker' class='mdl-button mdl-js-button mdl-button--accent mdl-button--icon' target='_blank'>
-                    <i class='material-icons fa fa-github'></i>
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-github"></i>
+                  </span>
+                  <a href='https://github.com/brayramirez/replicator'>
+                    https://github.com/brayramirez/replicator
                   </a>
-                  <a href='https://rubygems.org/gems/version_tracker' class='mdl-button mdl-js-button mdl-button--accent mdl-button--icon' target='_blank'>
-                    <i class='material-icons fa fa-globe'></i>
+                </p>
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-link"></i>
+                  </span>
+                  <a href='https://replicator-scorer.herokuapp.com'>
+                    https://replicator-scorer.herokuapp.com
                   </a>
+                </p>
 
-                  <hr/>
-                  <h4 class='mdl-color-text--primary'>Finance Tracker</h4>
-                  <p>
-                    <i class='material-icons fa fa-wrench'></i>
-                    &nbsp;Ruby on Rails - JavaScript - JQuery - PostgreSQL - GitHub - Heroku - Bootstrap - Material Design
-                  </p>
-                  <h6>
-                    Financial experts say it is a good practice to keep a diary of expenses and for a start I was using spreadsheets. To avoid having to maintain a lot of spreadsheets, I built my own Finance Tracker application using Ruby on Rails and hosted in Heroku.
-                  </h6>
-                  <a href='https://github.com/brayramirez/finance_tracker' class='mdl-button mdl-js-button mdl-button--accent mdl-button--icon' target='_blank'>
-                    <i class='material-icons fa fa-github'></i>
-                  </a>
-                  <a href='http://myfinancetracker.herokuapp.com' class='mdl-button mdl-js-button mdl-button--accent mdl-button--icon' target='_blank'>
-                    <i class='material-icons fa fa-globe'></i>
-                  </a>
+                <hr/>
 
-                  <hr/>
-                  <h4 class='mdl-color-text--primary'>Rails API + Ember CLI</h4>
-                  <p>
-                    <i class='material-icons fa fa-wrench'></i>
-                    &nbsp;Ruby on Rails(API Only) - Ember-CLI
-                  </p>
-                  <h6>Sample application to learn EmberJS.</h6>
-                  <a href='https://github.com/brayramirez/rails-ember' class='mdl-button mdl-js-button mdl-button--accent mdl-button--icon' target='_blank'>
-                    <i class='material-icons fa fa-github'></i>
-                  </a>
-                  <a href='http://myfinancetracker.herokuapp.com' class='mdl-button mdl-js-button mdl-button--accent mdl-button--icon' target='_blank'>
-                    <i class='material-icons fa fa-globe'></i>
-                  </a>
+                <h3>Finance Tracker</h3>
 
-                  <hr/>
-                  <h4 class='mdl-color-text--primary'>Rails API + ReactJS</h4>
-                  <p>
-                    <i class='material-icons fa fa-wrench'></i>
-                    &nbsp;Ruby on Rails(API Only) - ReactJS - ExpressJS - Flux Architecture
-                  </p>
-                  <h6>
-                    Proof of concept and for presentation purposes in team technical talk at Clinic IT.
-                  </h6>
-                  <a href='https://github.com/brayramirez/phonebook' class='mdl-button mdl-js-button mdl-button--accent mdl-button--icon' target='_blank'>
-                    <i class='material-icons fa fa-github'></i>
-                  </a>
-                  Rails API
-                  <a href='https://github.com/brayramirez/phonebook-web' class='mdl-button mdl-js-button mdl-button--accent mdl-button--icon' target='_blank'>
-                    <i class='material-icons fa fa-github'></i>
-                  </a>
-                  ReactJS + ExpressJS
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-wrench"></i>
+                  </span>
+                  Ruby on Rails, JavaScript, JQuery, PostgreSQL, Heroku, Bootstrap, Material Design
+                </p>
 
-                  <hr/>
-                  <h4 class='mdl-color-text--primary'>Avalon Cards</h4>
-                  <p>
-                    <i class='material-icons fa fa-wrench'></i>
-                    &nbsp;MeteorJS - JavaScript - MongoDB
-                  </p>
-                  <h6>
-                    Inspired by tabletop game The Resistance: Avalon. An application built with MeteorJS that aids in character distribution wherein players no longer need to close their eyes or put their thumbs up to determine their affiliation.
-                  </h6>
-                  <a href='https://github.com/brayramirez/avaloncards' class='mdl-button mdl-js-button mdl-button--accent mdl-button--icon' target='_blank'>
-                    <i class='material-icons fa fa-github'></i>
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-github"></i>
+                  </span>
+                  <a href='https://github.com/brayramirez/finance_tracker'>
+                    https://github.com/brayramirez/finance_tracker
                   </a>
-                  <a href='http://avaloncards.meteor.com/' class='mdl-button mdl-js-button mdl-button--accent mdl-button--icon' target='_blank'>
-                    <i class='material-icons fa fa-globe'></i>
+                </p>
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-link"></i>
+                  </span>
+                  <a href='http://myfinancetracker.herokuapp.com'>
+                    http://myfinancetracker.herokuapp.com
                   </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+                </p>
 
-        <div class='mdl-grid'>
-          <div class='mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-phone mdl-cell--hide-tablet'></div>
-          <div class='mdl-cell mdl-cell--8-col-desktop mdl-cell--12-col-phone mdl-cell--12-col-tablet'>
-            <div class='mdl-grid mdl-grid--no-spacing'>
-              <div class='mdl-card mdl-shadow--8dp mdl-cell mdl-cell--12-col'>
-                <div class='mdl-card__title mdl-color--primary'>
-                  <div class='mdl-card__title-text'>
-                    <h3 class='mdl-color-text--white'>
-                      <i class='fa fa-graduation-cap'></i>&nbsp;Education
-                    </h3>
-                  </div>
-                </div>
-                <div class='mdl-card__supporting-text'>
-                  <h4 class='mdl-color-text--primary'>
-                    Bachelor of Science in Computer Engineering
-                  </h4>
-                  <p>
-                    <i class='material-icons fa fa-university'></i>
-                    &nbsp;Mapua Institute of Technology
-                  </p>
-                  <p>
-                    <i class='material-icons fa fa-map-marker'></i>
-                    &nbsp;Intramuros, Manila, Philippines
-                  </p>
-                </div>
+                <hr/>
+
+                <h3>Version Tracker</h3>
+
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-wrench"></i>
+                  </span>
+                  Ruby, Git, RSpec
+                </p>
+
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-github"></i>
+                  </span>
+                  <a href='https://github.com/brayramirez/version_tracker'>
+                    https://github.com/brayramirez/version_tracker
+                  </a>
+                </p>
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-link"></i>
+                  </span>
+                  <a href='https://rubygems.org/gems/version_tracker'>
+                    https://rubygems.org/gems/version_tracker
+                  </a>
+                </p>
+
+                <hr/>
+
+                <h3>Rails API + Ember CLI</h3>
+
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-wrench"></i>
+                  </span>
+                  Ruby on Rails (API Only), Ember-CLI
+                </p>
+
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-github"></i>
+                  </span>
+                  <a href='https://github.com/brayramirez/rails-ember'>
+                    https://github.com/brayramirez/rails-ember
+                  </a>
+                </p>
+
+                <hr/>
+
+                <h3>Rails API + ReactJS</h3>
+
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-wrench"></i>
+                  </span>
+                  Ruby on Rails (API Only), ReactJS, ExpressJS, Flux Architecture
+                </p>
+
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-github"></i>
+                  </span>
+                  <a href='https://github.com/brayramirez/phonebook'>
+                    https://github.com/brayramirez/phonebook
+                  </a>
+                </p>
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-github"></i>
+                  </span>
+                  <a href='https://github.com/brayramirez/phonebook-web'>
+                    https://github.com/brayramirez/phonebook-web
+                  </a>
+                </p>
+
+                <hr/>
+
+                <h3>Avalon Cards</h3>
+
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-wrench"></i>
+                  </span>
+                  MeteorJS, JavaScript, MongoDB
+                </p>
+
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-github"></i>
+                  </span>
+                  <a href='https://github.com/brayramirez/avaloncards'>
+                    https://github.com/brayramirez/avaloncards
+                  </a>
+                </p>
 
               </div>
             </div>
+
+            <div class='box' id='education'>
+              <h3 class='title is-3'>
+                <a href='#education'>Education</a>
+              </h3>
+              <hr/>
+              <div class='content'>
+                <h3>Bachelor of Science in Computer Engineering</h3>
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-university"></i>
+                  </span>
+                  Mapua Institute of Technology
+                </p>
+                <p>
+                  <span class="icon">
+                    <i class="fa fa-map-marker"></i>
+                  </span>
+                  Intramuros, Manila, Philippines
+                </p>
+              </div>
           </div>
         </div>
-
       </div>
     </div>
+
   </body>
 </html>
